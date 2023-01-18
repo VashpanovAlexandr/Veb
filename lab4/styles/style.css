@@ -1,0 +1,395 @@
+* {
+  font-family: 'Montserrat';
+}
+
+body {
+  overflow: revert;
+}
+
+.menu_hiden {
+  display: none;
+  color: #156963;
+  font-size: 50px;
+}
+
+a { 
+  text-decoration: none;
+  margin: 0 217px;
+  width: 217px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+.header_left {
+  width: 50%;
+  margin-left: 0;
+}
+.header_left img {
+  width: 100%;
+  height: 80%;
+  margin-left: 0;
+}
+.header_right {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header_menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header_text {
+  font-family: 'Montserrat';
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin : 10%;
+}
+.header_text h1 {
+  color: #156963;
+  font-size: 50px;
+}
+.header_text p {
+  color: #2c1500;
+  
+}
+
+.header_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.header_item {
+  margin-right: 10px;
+}
+.sign_in {
+  background-color: #156963;
+  color: white;
+  padding: 5px;
+}
+
+.search {
+  background: url("../images/search 11.png");
+  height: 20px;
+  width: 20px;
+}
+
+.corzina {
+  background: url("../images/shopping-cart 12.png");
+  height: 20px;
+  width: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 70px;
+}
+
+.main_items {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.box {
+  border: 2px solid #e0e0e0;
+  margin : 2%;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.main_name_container {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+}
+
+.img1 {
+  background: url("../images/fast 11.png");
+  height: 48px;
+  width: 48px;
+  margin: 5px;
+}
+.img2 {
+  background: url("../images/Vector2.png") no-repeat;
+  height: 48px;
+  min-width: 48px;
+  margin: 5px;
+}
+.img3 {
+  background: url("../images/plant 13.png");
+  height: 48px;
+  width: 48px;
+  margin: 5px;
+}
+.img4 {
+  background: url("../images/dollar-symbol 14.png");
+  height: 48px;
+  width: 48px;
+  margin: 5px;
+}
+
+.main_item_name {
+  display: flex;
+  flex-direction: row;
+  color: #156963;
+  font-size: 15px;
+}
+
+.main_item_name h3 {
+  font-weight: bold;
+}
+.main_item_text p {
+  margin: 1%;
+  padding: 2%;
+  font-size: 10px;
+}
+
+.featured_plants {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.featured_plants hr {
+  border: none;
+  background-color: #e0e0e0;
+  height: 1px;
+  width: 100%;
+  margin: 0;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 50px;
+ 
+}
+
+.products_item {
+  margin-left: 25px;
+  min-width: 100px;
+}
+.products_name {
+  text-align: center;
+}
+
+.products_price {
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+#p1 {
+  background: url("../images/featured kaktus.png") no-repeat, #f3f4f6;
+  background-position: 50% 65%;
+  background-size: 150%;
+  height: 217px;
+  max-width: 217px;
+}
+#p2 {
+  background: url("../images/featured landark.png") no-repeat, #f3f4f6;
+  background-position: 50% 0%;
+  background-size: 100%;
+  height: 217px;
+  max-width: 217px;
+}
+#p3 {
+  background: url("../images/featured kecubung 1.png") no-repeat, #f3f4f6;
+  background-position: 50% 50%;
+  background-size: 100%;
+  height: 217px;
+  max-width: 217px;
+}
+#p4 {
+  background: url("../images/featured kecubung 2.png") no-repeat, #f3f4f6;
+  background-position: 50% -20%;
+  background-size: 130%;
+  height: 217px;
+  max-width: 217px;
+}
+#p5 {
+  background: url("../images/featured kecubung 3.png") no-repeat, #f3f4f6;
+  background-position: 50% 0%;
+  background-size: 180%;
+  height: 217px;
+  max-width: 217px;
+}
+
+.recomendation {
+  display: flex;
+  flex-direction: row;
+  margin-top : 90px;
+  
+}
+.recomendation_left {
+  width: 40%;
+  color: #2c1500;
+  text-align: left;
+}
+
+.recomendation_photo {
+  background: url("../images/buy more left.png") no-repeat;
+  background-position: 30% 55%;
+  background-size: 150%;
+  height: 200px;
+}
+.recomendation_right {
+  margin-left : 10%;
+  width: 50%;
+  background: url("../images/buy more right.png");
+  background-position: 50% 100%;
+  background-size: 130%;
+  height: 700px;
+}
+
+.visit {
+  display: flex;
+  flex-direction: row;
+  background-color: #F3F4F6;
+  height: 360px;
+  margin-top: 50px;
+}
+.visit_left h2 {
+  color: #2c1500;
+  line-height: 1.4;
+  margin: 90px;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.visit_left {
+  max-width: 80%;
+}
+
+.visit_left a {
+  padding: 5px;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  color: white;
+  background-color: #156963;
+  margin-left: 90px;
+}
+.visit_right {
+  background: url("../images/visit shop.png") no-repeat;
+  background-size: 200%;
+  background-position: 50% 50%;
+  height: 360px;
+  width: 300px;
+
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px solid #b9d3d1;
+  width: 100%;
+  height: 400px;
+  margin: 40px;
+}
+.first_column {
+  max-width: 20%;
+}
+footer h3 {
+  color: #156963;
+}
+footer h4 {
+  color: #333;
+}
+footer form input {
+  border:#156963 1px;
+}
+footer form button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #156963;
+  border: 1px solid #156963;
+  
+  color: white;
+}
+footer form button:hover {
+  transform: translateY(-2px);
+}
+
+@media (max-width : 919px) {
+  #d5 {
+    display: none;
+  }
+}
+@media (max-width : 756px) {
+  #d4 {
+    display: none;
+  }
+  main {
+    margin: 0 20px;
+  }
+  
+}
+
+@media (max-width : 802px) {
+  .visit_left h2 {
+    margin: 50px;
+    margin-bottom: 10px;
+    font-size: 35px;
+  }
+  .visit_right {
+    display: none;
+  }
+}
+@media (max-width : 656px) {
+  .main_item_text {
+    display: none;
+  }
+  .img1 {
+    display: none;
+  }
+  .img2 {
+    display: none;
+  }
+  .img3 {
+    display: none;
+  }
+  .img4 {
+    display: none;
+  }
+  .main_name_container {
+    padding: 5px;
+  }
+  .box {
+    border: 3px solid #e0e0e0;
+    border-radius: 1ch;
+  }
+}
+
+@media (max-width : 556px) {
+  .header_left {
+    display: none;
+  }
+  .header_right {
+    align-items: center;
+    max-width: 100%;
+  }
+  .header_text {
+    text-align: center;
+  }
+}
+@media (max-width : 493px) {
+  #d3 {
+    display: none;
+  }
+  main {
+    margin: 0 8px;
+  }
+}
